@@ -25,6 +25,8 @@ import sys
 from flask import Flask
 from service import config
 from service.common import log_handlers
+from .app import app
+from .models import db
 
 # NOTE: Do not change the order of this code
 # The Flask app must be created
